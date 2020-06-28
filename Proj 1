@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" href="proj1.css" type="text/css">
+ </head>
+ <body>
+  	<table>
+  		<caption>Characteristics of Certain Dog Breeds</caption>
+  		<thead>
+  			<tr>
+  				<th></th>
+  				<th>Fur Length</th>
+  				<th>Personality</th>
+  				<th>Energy Level</th>
+  				<th>Family Friendly?</th>
+  				<th>Apartment Friendly?</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  				<td><i>Corgi</i></td>
+  				<td>Short</td>
+  				<td>Spunky</td>
+  				<td>Medium</td>
+  				<td>Yes</td>
+  				<td>Yes</td>
+  			</tr>
+  			<tr>
+  				<td><i>German Shepard</i></td>
+  				<td>Varies from short to long</td>
+  				<td>Loyal</td>
+  				<td>High</td>
+  				<td>Not for small children</td>
+  				<td>No</td>
+  			</tr>
+  			<tr>
+  				<td><i>Yakutian Laika</i></td>
+  				<td>Long</td>
+  				<td>Independent</td>
+  				<td>High</td>
+  				<td>Not for small children</td>
+  				<td>No</td>
+  			</tr>
+  			<tr>
+  				<td><i>Pug</i></td>
+  				<td>Short</td>
+  				<td>Affectionate</td>
+  				<td>Low</td>
+  				<td>Yes</td>
+  				<td>Yes</td>
+  			</tr>
+  			<tr>
+  				<td><i>Border Collie</i></td>
+  				<td>Long</td>
+  				<td>Intelligent</td>
+  				<td>High</td>
+  				<td>Yes</td>
+  				<td>No</td>
+  			</tr>
+          </tbody>
+  		<tfoot>
+  			<td colspan="2">Footer 1</td>
+  			<td colspan="4">Footer 2</td>
+          </tfoot>
+  	</table>
+  	
+  	<section>
+  		<h1>Errand List</h1>
+  		<ol>
+  			<li>Buy 2 dozen eggs</li>
+  			<li>Buy a gallon of milk</li>
+  			<li>Buy Laundry Detergent</li>
+  			<li>Buy Dryer Sheet</li>
+  			<li>Get car washed</li>
+  			<li>Buy windshield wiper antifreeze fluid</li>
+  		</ol>
+      </section>
+
+      <div class="outer-content">
+          <div class="inner-content">
+            Hello World!
+          </div>
+      </div>
+      
+      <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="GET">
+          <fieldset>
+              <legend>Get Form</legend>
+              <div>
+                <label>Favorite Color:
+                    <input type="text" name="text_input">
+                </label>
+              </div>
+
+              <div>
+                <label>Favorite Number:
+                    <input type="number" name="numerical_input">
+                </label>
+              </div>
+
+              <div>
+                <label>Password:
+                    <input type="password" name="password_input">
+                </label>
+              </div>
+
+              <div>
+                  <p>Please Choose Your Favorite Candy:</p>
+
+                  <label> 
+                    <input type="radio" name="candy" value="snickers">
+                    Snickers
+                  </label>
+                </br>
+                  <label> 
+                    <input type="radio" name="candy" value="skittles">
+                    Skittles
+                  </label>
+                </br>
+                  <label>
+                    <input type="radio" name="candy" value="mentos">
+                    Mentos
+                  </label>
+              </div>
+          </fieldset>
+
+      </form>
+
+      <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+            <fieldset>
+                <legend>Post Form</legend>
+                <div>
+                  <label>Favorite Color:
+                      <input type="text" name="text_input">
+                  </label>
+                </div>
+  
+                <div>
+                  <label>Favorite Number:
+                      <input type="number" name="numerical_input">
+                  </label>
+                </div>
+  
+                <div>
+                  <label>Password:
+                      <input type="password" name="password_input">
+                  </label>
+                </div>
+  
+                <div>
+                    <p>Please Choose Your Favorite Candy:</p>
+  
+                    <label> 
+                      <input type="radio" name="candy" value="snickers">
+                      Snickers
+                    </label>
+                  </br>
+                    <label> 
+                      <input type="radio" name="candy" value="skittles">
+                      Skittles
+                    </label>
+                  </br>
+                    <label>
+                      <input type="radio" name="candy" value="mentos">
+                      Mentos
+                    </label>
+                </div>
+            </fieldset>
+  
+        </form>
+ </body>
+</html>
